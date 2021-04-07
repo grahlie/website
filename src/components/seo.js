@@ -62,11 +62,15 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: 'Mathias Grahl',   
         },
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: 'keywords',
+          content: 'Develop, Designer, Frontend, Backend, Gatsby, PHP, UI, UX, Usability, React, Sweden, Sverige, Trollhättan, Mathias, Grahl, Mathias Grahl, Grahlie'
         },
       ].concat(meta)}
     />
